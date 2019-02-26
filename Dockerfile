@@ -1,3 +1,3 @@
-FROM runmymind/docker-android-sdk
+FROM audkar/docker-android-sdk
 
-RUN apt-get update -yqq && apt-get install -y npm build-essential bash
+RUN apk --update add npm bash
