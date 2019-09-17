@@ -1,7 +1,7 @@
 FROM audkar/docker-android-sdk
 
 # npm
-RUN apk --update add npm bash
+RUN apk --update add npm bash coreutils
 
 # gradle
 RUN wget -q -O gradle.zip "https://services.gradle.org/distributions/gradle-4.9-bin.zip"
